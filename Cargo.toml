@@ -21,7 +21,7 @@ name = "wormhole"
 path = "src/client/bin.rs"
 
 [dependencies]
-clap = { version = "4.3", features = ["derive"] }
+clap = { version = "4.4", features = ["derive"] }
 crypto_secretbox = "0.1"
 data-encoding = "2.4"
 env_logger = "0.10"
@@ -30,6 +30,7 @@ futures-channel = "0.3"
 futures-util = { version = "0.3", features = ["sink"] }
 hex = "0.4"
 hkdf = "0.12"
+rustix = "0.37.25"
 log = "0.4"
 rand = "0.8"
 serde = { version = "1.0", features = ["derive"] }
@@ -39,4 +40,4 @@ sha2 = "0.10"
 spake2 = "0.3"
 thiserror = "1.0"
 tokio = { version = "1.28", features = ["macros", "rt-multi-thread"] }
-tokio-tungstenite = "0.19"
+tokio-tungstenite = "0.20.1"
