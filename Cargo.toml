@@ -39,5 +39,5 @@ serde_with = { version = "3.0", features = ["hex"] }
 sha2 = "0.10"
 spake2 = "0.3"
 thiserror = "1.0"
-tokio = { version = "1.28", features = ["macros", "rt-multi-thread"] }
-tokio-tungstenite = "0.20.1"
+tokio = { version = "1.36", features = ["macros", "rt-multi-thread"] }
+tokio-tungstenite = "0.21"
